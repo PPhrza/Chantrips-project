@@ -1,0 +1,184 @@
+body{
+    background: linear-gradient(
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.8)
+    ),
+    url('https://img.wongnai.com/p/1920x0/2018/07/15/89eae7a44d70441ba30c7b9ffdd606e2.jpg');
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+/*----------top menu----------*/
+#head{
+    background-color: #ffffff;
+    height: 80px;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+#head h1{
+    color: #feb729  ;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    margin-right: 50px;
+    list-style: none;
+}
+ul li{
+    margin: 0 1rem;
+    font-size: 18pxs;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+}
+ul li a:hover{
+    background: rgb(255,205,104);
+    background: linear-gradient(90deg, rgba(255,205,104,1) 0%, rgba(254,183,41,1) 42%, rgba(153,107,15,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    margin-left: 30px;
+}
+.logo img{
+    width: 80%;
+}
+/*----------body-----------*/
+.place-types{
+    background-color: #fff;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 20px;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+.place-types h1{
+    padding-top: 20px;
+    font-size: 45px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: #feb729;
+    text-align: center;
+}
+.place-types-types h2{
+    color: #feb729;
+    font-size: 35px;
+    margin-left: 30px;
+}
+.place-types-places{
+    margin-left: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.place-types-places a{
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    padding-right: 40px;
+    margin-left: 30px;
+}
+.place-types-places a:hover{
+    background: rgb(255,205,104);
+    background: linear-gradient(90deg, rgba(255,205,104,1) 0%, rgba(254,183,41,1) 42%, rgba(153,107,15,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.place-types-types-mountain{
+    color: #feb729;
+}
+/*-----------Places------------*/
+#places{
+    background-color: #fff;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: grid;
+}
+    /*---------Mountain---------*/
+    #topic-location{
+        font-size: 35px;
+        margin-left: 30px;
+        color: #feb729;
+        padding-bottom: 20px;
+    }
+    .location{
+        margin-left: 30px;
+        margin-top: 20px;
+        display: flex;
+    }
+    .location a{
+        text-decoration: none;
+        color:black;
+        font-size: 70px;
+        margin-left: 40px;
+        font-family: 'Noto Sans Thai', sans-serif;
+    }
+    .location a:hover{
+        background: rgb(255,205,104);
+        background: linear-gradient(90deg, rgba(255,205,104,1) 0%, rgba(254,183,41,1) 42%, rgba(153,107,15,1) 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .location a p{
+        font-size: 20px;
+        margin-top: -5px;
+    }
+    .location h2{
+        font-size: 40px;
+        margin-top: -5px;
+    }
+    .location h3{
+        font-size: 15px;
+        margin-top: -5px;
+    }
+    .topic-location-head h2{
+        font-size: 80px;
+        margin-bottom: -20px;
+    }
+    .topic-location-head h3{
+        font-size: 40px;
+    }
+    .location img{
+        width: 12%;
+        height: 12%;
+    }
+/*----------Footer-----------*/
+.footer{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #fff;
+    margin-top: 30px;
+}
+.contact{
+    text-align: right;
+    margin-right: 20px;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+.contact h3{
+    margin-top:-10px;
+}
+.question{
+    align-self: center;
+    text-align: center;
+}
+.question a{
+    text-decoration: none;
+    color: #feb729;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 40px;
+}
+.question a:hover{
+    color: #000;
+}
+.address{
+    margin-left: 20px;
+    font-family: 'Noto Sans Thai', sans-serif;
+}

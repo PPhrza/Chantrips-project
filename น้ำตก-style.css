@@ -1,0 +1,183 @@
+body{
+    background: linear-gradient(
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.8)
+    ),
+    url('https://img.wongnai.com/p/1920x0/2018/07/15/89eae7a44d70441ba30c7b9ffdd606e2.jpg');
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+/*----------top menu----------*/
+#head{
+    background-color: #ffffff;
+    height: 80px;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+#head h1{
+    color: #feb729  ;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    margin-right: 50px;
+    list-style: none;
+}
+ul li{
+    margin: 0 1rem;
+    font-size: 18pxs;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+}
+ul li a:hover{
+    color: #feb729;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    margin-left: 30px;
+}
+.logo img{
+    width: 80%;
+}
+/*------------body-----------------*/
+.body{
+    background-color: #ffffff;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.marquee{
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.marquee marquee{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+.back-botton a:hover{
+    background: rgb(255,205,104);
+    background: linear-gradient(90deg, rgba(255,205,104,1) 0%, rgba(254,183,41,1) 42%, rgba(153,107,15,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.topic{
+    text-align: center;
+    padding-top: 5px;
+}
+.topic h1{
+    font-size: 80px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: #feb729;
+}
+.nature-topic h2{
+    font-size: 45px;
+    color: #feb729;
+    font-family: 'Noto Sans Thai', sans-serif;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.nature{
+    margin-right: 30px;
+    margin-left: 30px;
+    display: flex;
+}
+.nature img{
+    width: 20%;
+}
+.nature p{
+    margin-left: 20px;
+    font-size: 30px;
+}
+.gallery-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery h2{
+    margin-left: 30px;
+    font-size:45px;
+    color: #feb729;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+.gallery img{
+    width: 20%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.history-topic h2{
+    margin-left: 30px;
+    font-size:45px;
+    color: #feb729;
+}
+.direction{ 
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+.direction-topic h2{
+    font-size: 45px;
+    color: #feb729;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+.direction-about a{
+    font-size: 30px;
+}
+.direction-about h2{
+    font-size:30px;
+}
+.history-topic h2{
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+.history-paragraph p{
+    margin-left: 30px;
+    font-size: 30px;
+}
+.history-paragraph a{
+    margin-left: 30px;
+    font-size: 20px;
+    color: #feb729;
+}
+/*----------Footer-----------*/
+.footer{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #fff;
+    margin-top: 30px;
+}
+.contact{
+    text-align: right;
+    margin-right: 20px;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+.contact h3{
+    margin-top:-10px;
+}
+.question{
+    align-self: center;
+    text-align: center;
+}
+.question a{
+    text-decoration: none;
+    color: #feb729;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 40px;
+}
+.question a:hover{
+    color: #000;
+}
+.address{
+    margin-left: 20px;
+    font-family: 'Noto Sans Thai', sans-serif;
+}

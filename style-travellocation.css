@@ -1,0 +1,397 @@
+body{
+    background: linear-gradient(
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.8)
+    ),
+    url('https://img.wongnai.com/p/1920x0/2018/07/15/89eae7a44d70441ba30c7b9ffdd606e2.jpg');
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+/*----------top menu----------*/
+#head{
+    background-color: #ffffff;
+    height: 80px;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+#head h1{
+    color: #feb729  ;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    margin-right: 50px;
+    list-style: none;
+}
+ul li{
+    margin: 0 1rem;
+    font-size: 18pxs;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+}
+ul li a:hover{
+    background: rgb(255,205,104);
+    background: linear-gradient(90deg, rgba(255,205,104,1) 0%, rgba(254,183,41,1) 42%, rgba(153,107,15,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    margin-left: 30px;
+}
+.logo img{
+    width: 80%;
+}
+/*----------body-----------*/
+.place-types{
+    background-color: #fff;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 20px;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+.place-types h1{
+    padding-top: 20px;
+    font-size: 45px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: #feb729;
+    text-align: center;
+}
+.place-types-types h2{
+    color: #feb729;
+    font-size: 35px;
+    margin-left: 30px;
+}
+.place-types-places{
+    margin-left: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.place-types-places a{
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    padding-right: 40px;
+    margin-left: 30px;
+}
+.place-types-places a:hover{
+    background: rgb(255,205,104);
+    background: linear-gradient(90deg, rgba(255,205,104,1) 0%, rgba(254,183,41,1) 42%, rgba(153,107,15,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+/*----------Big Menu----------*/
+.Bigmenu{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: -50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.logo2{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    width: 100%;
+    height: 100%;
+}
+.img img{
+    width: 250px;
+}
+.text{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.text a{
+    text-decoration: none;
+}
+.text h2{
+    color: black;
+    margin-top: -50px;
+}
+.head2 h1{
+    margin-left: 30px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: #feb729;
+}
+/*-----------Places------------*/
+#places{
+    background-color: #fff;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: grid;
+}
+/*----------Waterfall-----------*/
+#topic-waterfall{
+    font-size: 35px;
+    margin-left: 30px;
+    color: #feb729;
+}
+    .waterfall1{
+        margin-left: 30px;
+        margin-top: 50px;
+        display: flex;
+    }
+    .waterfall1 a{
+        text-decoration: none;
+        color:black;
+        font-size: 70px;
+        margin-left: 40px;
+        font-family: 'Noto Sans Thai', sans-serif;
+    }
+    .waterfall1 a:hover{
+        background: rgb(255,205,104);
+        background: linear-gradient(90deg, rgba(255,205,104,1) 0%, rgba(254,183,41,1) 42%, rgba(153,107,15,1) 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .waterfall1 img{
+        width: 12%;
+        height: 12%;
+    }
+    .waterfall1 a p{
+        font-size: 20px;
+        margin-top: -5px;
+    }
+    .waterfall1 h2{
+        font-size: 40px;
+        margin-top: -5px;
+    }
+    .waterfall1 h3{
+        font-size: 15px;
+        padding-top: -10px;
+    }
+    .topic-waterfall-head h2{
+        font-size: 80px;
+        margin-bottom: -20px;
+    }
+    .topic-waterfall-head h3{
+        font-size: 40px;
+    }
+/*---------Mountain---------*/
+    #topic-mountain{
+        font-size: 35px;
+        margin-left: 30px;
+        color: #feb729;
+    }
+    .mountain1{
+        margin-left: 30px;
+        margin-top: 20px;
+        display: flex;
+    }
+    .mountain1 a{
+        text-decoration: none;
+        color:black;
+        font-size: 70px;
+        margin-left: 40px;
+        font-family: 'Noto Sans Thai', sans-serif;
+    }
+    .mountain1 a:hover{
+        background: rgb(255,205,104);
+        background: linear-gradient(90deg, rgba(255,205,104,1) 0%, rgba(254,183,41,1) 42%, rgba(153,107,15,1) 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .mountain1 a p{
+        font-size: 20px;
+        margin-top: -5px;
+    }
+    .mountain1 h2{
+        font-size: 40px;
+        margin-top: -5px;
+    }
+    .mountain1 h3{
+        font-size: 15px;
+        margin-top: -5px;
+    }
+    .topic-mountain-head h2{
+        font-size: 80px;
+        margin-bottom: -20px;
+    }
+    .topic-mountain-head h3{
+        font-size: 40px;
+    }
+/*----------sea--------------*/
+    #topic-sea{
+        font-size: 35px;
+        margin-left: 30px;
+        color: #feb729; 
+        margin-bottom: 20px;
+    }
+    .sea1{
+        margin-left: 30px;
+        margin-top: 20px;
+        display: flex;
+    }
+    .sea1 a{
+        text-decoration: none;
+        color:black;
+        font-size: 70px;
+        margin-left: 40px;
+        font-family: 'Noto Sans Thai', sans-serif;
+    }
+    .sea1 a p{
+        font-size: 20px;
+        margin-top: -5px;
+    }
+    .sea1 h2{
+        font-size: 40px;
+        margin-top: -5px;
+    }
+    .sea1 h3{
+        font-size: 15px;
+        margin-top: -5px;
+    }
+    .sea1 a:hover{
+        background: rgb(255,205,104);
+        background: linear-gradient(90deg, rgba(255,205,104,1) 0%, rgba(254,183,41,1) 42%, rgba(153,107,15,1) 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .sea1 img{
+        width: 12%;
+    }
+    .topic-sea-head h2{
+        font-size: 80px;
+        margin-bottom: -20px;
+    }
+    .topic-sea-head h3{
+        font-size: 40px;
+    }
+    /*-----------natural trails------------------*/
+    #topic-naturaltrails{
+        font-size: 35px;
+        margin-left: 30px;
+        color: #feb729; 
+        margin-bottom: 20px;
+    }
+    .naturaltrail1{
+        margin-left: 30px;
+        margin-top: 20px;
+        display: flex;
+    }
+    .naturaltrail1 a{
+        text-decoration: none;
+        color:black;
+        font-size: 70px;
+        margin-left: 40px;
+        font-family: 'Noto Sans Thai', sans-serif;
+    }
+    .naturaltrail1 a:hover{
+        background: rgb(255,205,104);
+        background: linear-gradient(90deg, rgba(255,205,104,1) 0%, rgba(254,183,41,1) 42%, rgba(153,107,15,1) 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .naturaltrail1 a p{
+        font-size: 20px;
+        margin-top: -5px;
+    }
+    .naturaltrail1 h2{
+        font-size: 30px;
+        margin-top: -5px;
+    }
+    .naturaltrail1 img{
+        width: 12%;
+    }
+    .topic-naturaltrails-head h2{
+        font-size: 80px;
+        margin-bottom: -20px;
+    }
+    .topic-naturaltrails-head h3{
+        font-size: 40px;
+    }
+    /*----------temples------------*/
+    #topic-temple{
+        font-size: 35px;
+        margin-left: 30px;
+        color: #feb729; 
+        margin-bottom: 20px;
+    }
+    .temples1{
+        margin-top: 20px;
+        display: flex;
+    }
+    .temples1 img{
+        width: 12%;
+    }
+    .temples1 a{
+        text-decoration: none;
+        color:black;
+        font-size: 70px;
+        margin-left: 40px;
+        font-family: 'Noto Sans Thai', sans-serif;;
+    }
+    .temples1 a:hover{
+        background: rgb(255,205,104);
+        background: linear-gradient(90deg, rgba(255,205,104,1) 0%, rgba(254,183,41,1) 42%, rgba(153,107,15,1) 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .temples1 h2{
+        font-size: 30px;
+        margin-top: -5px;
+    }
+    .temples1 a p{
+        font-size: 20px;
+        margin-top: -5px;
+    }
+    .topic-temple-head h2{
+        font-size: 80px;
+        margin-bottom: -20px;
+    }
+    .topic-temple-head h3{
+        font-size: 40px;
+    }
+/*----------Footer-----------*/
+.footer{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #fff;
+    margin-top: 30px;
+}
+.contact{
+    text-align: right;
+    margin-right: 20px;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+.contact h3{
+    margin-top:-10px;
+}
+.question{
+    align-self: center;
+    text-align: center;
+}
+.question a{
+    text-decoration: none;
+    color: #feb729;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 40px;
+}
+.question a:hover{
+    color: #000;
+}
+.address{
+    margin-left: 20px;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
