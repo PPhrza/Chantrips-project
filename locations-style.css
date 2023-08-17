@@ -135,10 +135,12 @@ ul li a:hover{
     .location h2{
         font-size: 40px;
         margin-top: -5px;
+        font-family: 'Noto Sans Thai', sans-serif;
     }
     .location h3{
         font-size: 15px;
         margin-top: -5px;
+        font-family: 'Noto Sans Thai', sans-serif;
     }
     .topic-location-head h2{
         font-size: 80px;
@@ -148,8 +150,8 @@ ul li a:hover{
         font-size: 40px;
     }
     .location img{
-        width: 12%;
-        height: 12%;
+        width: 16%;
+        height: 16%;
     }
 /*----------Footer-----------*/
 .footer{
