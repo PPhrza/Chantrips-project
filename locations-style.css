@@ -7,7 +7,7 @@ body{
     background-attachment: fixed;
     margin: 0;
     padding: 0;
-    aspect-ratio: 1 / 1;
+    
 }
 /*----------top menu----------*/
 #head{
@@ -64,9 +64,10 @@ ul li a:hover{
 }
 .place-types h1{
     padding-top: 20px;
-    font-size: 45px;
+    font-size: 80px;
     font-family: 'Noto Sans Thai', sans-serif;
     color: #feb729;
+    margin-top: -1px;
 }
 .place-types-types h2{
     color: #feb729;
@@ -75,23 +76,19 @@ ul li a:hover{
 }
 .place-types-places{
     margin-left: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
+    margin-top: -50px;
 }
 .place-types-places a{
-    font-size: 35px;
+    font-size: 40px;
     text-decoration: none;
     color: black;
-    padding-right: 40px;
-    margin-left: 30px;
 }
 .place-types-places a:hover{
     background: rgb(255,205,104);
     background: linear-gradient(90deg, rgba(255,205,104,1) 0%, rgba(254,183,41,1) 42%, rgba(153,107,15,1) 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-}
-.place-types-types-mountain{
-    color: #feb729;
 }
 /*-----------Places------------*/
 #places{
@@ -114,6 +111,17 @@ ul li a:hover{
         margin-top: 40px;
         display: flex;
     }
+    .location h2{
+        font-size: 40px;
+        margin-top: -5px;
+        font-family: 'Noto Sans Thai', sans-serif;
+    }
+    .location h3{
+        font-size: 15px;
+        margin-top: -5px;
+        font-family: 'Noto Sans Thai', sans-serif;
+        color: #000;
+    }
     .location a{
         text-decoration: none;
         color:black;
@@ -131,15 +139,17 @@ ul li a:hover{
         font-size: 20px;
         margin-top: -5px;
     }
-    .location h2{
-        font-size: 40px;
+    .topic-location-title h2{
+        font-size: 80px;
         margin-top: -5px;
         font-family: 'Noto Sans Thai', sans-serif;
+        color: #feb729;
     }
-    .location h3{
-        font-size: 15px;
-        margin-top: -5px;
+    .topic-location-title h3{
+        font-size: 40px;
+        margin-top: -70px;
         font-family: 'Noto Sans Thai', sans-serif;
+        color: #000;
     }
     .topic-location-head h2{
         font-size: 80px;
@@ -151,6 +161,7 @@ ul li a:hover{
     .location img{
         width: 16%;
         height: 16%;
+        border-radius: 20px;
     }
 /*----------Footer-----------*/
 .footer{
