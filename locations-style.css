@@ -60,13 +60,13 @@ ul li a:hover{
     margin-left: 40px;
     border-radius: 20px;
     font-family: 'Noto Sans Thai', sans-serif;
+    text-align: left;
 }
 .place-types h1{
     padding-top: 20px;
     font-size: 45px;
     font-family: 'Noto Sans Thai', sans-serif;
     color: #feb729;
-    text-align: center;
 }
 .place-types-types h2{
     color: #feb729;
@@ -75,7 +75,6 @@ ul li a:hover{
 }
 .place-types-places{
     margin-left: 30px;
-    text-align: center;
     padding-bottom: 30px;
 }
 .place-types-places a{
