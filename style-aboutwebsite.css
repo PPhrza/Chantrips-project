@@ -57,21 +57,30 @@ ul li a:hover{
     border-radius: 20px;
 }
 .about-website-head{
-    text-align: center;
+    font-family: 'Noto Sans Thai', sans-serif;
 }
 .about-website-head h1{
-    font-family: 'Noto Sans Thai', sans-serif;
     font-size: 60px;
     color: #feb729;
     padding-top: 30px;
     margin-bottom: -20px;
+    text-align: center;
 }
 .about-website-head p{
     font-family: 'Noto Sans Thai', sans-serif;
     font-size: 30px;
     margin-left: 30px;
     margin-right: 30px;
+    margin-top: -10px;
     padding-bottom: 20px;
+}
+.about-website-head h2{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: #feb729;
 }
 .people{
     display: grid;
@@ -100,6 +109,11 @@ ul li a:hover{
     margin-bottom: -10px;
 }
 .people-items h2{
+    font-size: 25px;
+    padding-bottom: 20px;
+    margin-top: -30px;
+}
+.people-items h4{
     font-size: 25px;
     padding-bottom: 20px;
 }
