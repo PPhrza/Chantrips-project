@@ -104,6 +104,10 @@ ul li a:hover{
     margin-left: 20px;
     font-size: 30px;
 }
+.nature a{
+    font-size: 20px;
+    color: #feb729;
+}
 .gallery-img{
     display: flex;
     align-items: center;
