@@ -100,6 +100,7 @@ ul li a:hover{
 .nature img{
     width: 20%;
     height: 20%;
+    border-radius: 20px;
 }
 .nature p{
     margin-left: 20px;
